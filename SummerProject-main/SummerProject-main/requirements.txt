@@ -1,0 +1,15 @@
+Django
+pymysql
+djangorestframework
+pillow
+django-cors-headers
+PyJWT
+python-dateutil
+matplotlib
+numpy
+scikit-learn
+pandas
+channels==3.0.5
+pytz
+tzlocal
+asgiref

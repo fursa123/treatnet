@@ -1,0 +1,44 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'flowbite';
+
+.title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 20px;
+}
+
+.para {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    color: #1a202c;
+}
+
+.approval-button {
+    background-color: #ce3131;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.approval-button:hover {
+    background-color: #b02b2b;
+}
+
+.intext {
+    font-weight: bold;
+    color: rgb(69, 129, 240);
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@zoomus/websdk": "^2.18.3",
+    "react-router-dom": "^6.25.1"
+  }
+}

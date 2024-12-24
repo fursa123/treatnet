@@ -1,0 +1,48 @@
+.container {
+   background-color: #1a237e; /* Dark blue background color */
+   color: white; /* Text color */
+   padding: 20px; /* Padding around content */
+   border-radius: 8px;
+   display: inline-block;
+   max-width: fit-content;
+}
+
+.container h1 {
+   margin-bottom: 20px; /* Bottom margin for the heading */
+}
+
+.container form {
+   margin-top: 20px; /* Top margin for the form */
+}
+
+.container label {
+   display: block; /* Display labels as block for better spacing */
+   margin-bottom: 8px; /* Bottom margin for labels */
+}
+
+.container input,
+.container button {
+   padding: 8px; /* Padding for inputs and buttons */
+   margin-bottom: 12px; /* Bottom margin for inputs and buttons */
+}
+
+.container input[type="date"],
+.container input[type="time"] {
+    padding: 8px; /* Padding for inputs */
+    margin-bottom: 12px; /* Bottom margin for inputs */
+    color: #333; /* Text color for input fields */
+    background-color: #fff; /* White background for input fields */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.container button {
+   background-color: #1565c0; /* Dark blue button background color */
+   color: white; /* Button text color */
+   border: none; /* Remove default button border */
+   cursor: pointer; /* Cursor style */
+}
+
+.container button:hover {
+   background-color: #1e88e5; /* Darker blue on hover */
+}

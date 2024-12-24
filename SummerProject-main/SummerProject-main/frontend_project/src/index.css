@@ -1,0 +1,63 @@
+@import 'flowbite';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+   width: 100%;                  /* Use full width of the container */
+   max-width: 1200px;            /* Max width to prevent it from stretching too much */
+   margin: 20px auto;            /* Center the card horizontally and add margin */
+   border: 3px solid #3c82f6;    /* Set up Border */
+   border-radius: 4px;           /* Slightly Curve edges */
+   overflow: hidden;             /* Fixes the corners */
+   display: flex;                /* Children use Flexbox */
+   flex-direction: column;       /* Rotate Axis */
+   background-color: white;      /* Set background color */
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add some shadow */
+   box-sizing: border-box;       /* Include padding and border in the element's total width and height */
+}
+
+.card-header {
+   color: #3c82f6;
+   text-align: left;
+   font-size: 20px;
+   font-weight: 600;
+   background-color: #ebf3ff;
+   padding: 10px;
+   width: 100%;                  /* Ensure it spans the full width */
+   box-sizing: border-box;       /* Include padding and border in the element's total width */
+}
+
+.card-main {
+   display: flex;                /* Children use Flexbox */
+   flex-direction: column;       /* Rotate Axis to Vertical */
+   justify-content: left;      /* Group Children on left */
+   align-items: left;          /* Group Children on left (+axis) */
+   padding: 15px 20px;           /* Add padding to the content */
+}
+
+.main-description {
+   color: #3c82f6;
+   font-size: 16px;
+   text-align: left;
+}
+
+.title-container {
+   width: 100%;                  /* Use full width of the container */
+   max-width: 1200px;            /* Max width to prevent it from stretching too much */
+   margin: 20px auto;            /* Center the title horizontally and add margin */
+   padding: 10px 0;              /* Padding for top and bottom */
+   box-sizing: border-box;       /* Include padding in the element's total width */
+   text-align: center;           /* Center the text */
+}
+
+.title-text {
+   font-size: 24px;              /* Font size for the title */
+   font-weight: bold;            /* Bold font */
+   color: #333;                  /* Text color */
+}
